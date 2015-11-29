@@ -121,7 +121,7 @@
       </div>
 
       <div class="item">
-        <div class="fill" style="background-image:url('/cee/images/launching-ceremony/NOV10_CEERP_launch.jpg');"></div>
+        <div class="fill" style="background-image:url('/cee/images/launching-ceremony/NOV10_CEERP_Launch.jpg');"></div>
         <div class="carousel-caption">
           <div class="carousel-caption">
 	    <p class="text-center">
@@ -152,7 +152,7 @@
       <h2>{{ post.title }}</h2>
       <p><i class="fa fa-clock-o"></i> Posted on {{ post.date | date_to_string }} </p>
       <p>{{ post.shortDescription }}</p>
-      <a class="btn btn-primary" href="/cee/{{ post.url }}">Read More <i class="fa fa-angle-right"></i></a>
+      <a class="btn btn-primary" href="/cee{{ post.url }}">Read More <i class="fa fa-angle-right"></i></a>
       <hr>
       {% endif %}
       {% endfor %}
