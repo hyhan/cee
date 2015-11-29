@@ -21,6 +21,6 @@ A launching ceremony of the HKU-CambridgeU Clean Energy and Environment Research
 
 ###Air Pollution and Social Justice in Hong Kong: An Interdisciplinary Study
 ####Professor Victor OK Li and Dr. Jacqueline CK Lam, the University of Hong Kong
-![Presentation](/cee/images/launching-ceremony/NOV10_VLi2.jpg)
+![Presentation](/cee/images/launching-ceremony/NOV10_Vli2.jpg)
 
 ![Presentation](/cee/images/launching-ceremony/NOV10_JLam.jpg)
