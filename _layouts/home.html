@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>HKU-Cambridge CEERP - Clean Energy and Environment Research Platform</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/ceerp.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">
+	  HKU-CambridgeU CEERP
+	</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/members.html">Members</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/events/conferences.html">Conferences</a>
+	      </li>
+	      <li>
+                <a href="/events/seminars.html">Seminars</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research Themes<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/themes/air-pollution-project.html">Air Pollution Project</a>
+              </li>
+            </ul>
+          </li>
+	  <li>
+            <a href="/research-fundings.html">Research Fundings</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Publications<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/publications/working-papers.html">Working Papers</a>
+              </li>
+              <li>
+                <a href="/publications/presentations.html">Presentations</a>
+              </li>
+            </ul>
+          </li>
+	  <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Partnerships<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="/partnerships/academic.html">Academic</a>
+              </li>
+              <li>
+                <a href="/partnerships/government.html">Government</a>
+              </li>
+	      <li>
+                <a href="/partnerships/industry.html">Industry</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+
+  <!-- Header Carousel -->
+  <header id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="fill" style="background-image:url('/images/meetings/NOV11_HKSAR.jpg');"></div>
+        <div class="carousel-caption">
+	  <p class="text-center">
+	    Key members of HKU-CambridgeU Research Platform had an informal meeting with Mr. Kam-shing Wong on 11 Nov at the HKSAR Government Building. The meeting covered various issues related to clean energy and environment.
+	  </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="fill" style="background-image:url('/images/launching-ceremony/NOV10_CEERP_launch.jpg');"></div>
+        <div class="carousel-caption">
+          <div class="carousel-caption">
+	    <p class="text-center">
+	      HKU-CambridgeU Clean Energy and Environment Launching Ceremony
+	    </p>
+          </div>
+	</div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+	<span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+	<span class="icon-next"></span>
+      </a>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="col-md-8">
+
+      <!-- Posts -->
+      {% for post in site.posts limit:10 | sort: 'date'%}
+      {% if post.showAtHome %}
+      <h2>{{ post.title }}</h2>
+      <p><i class="fa fa-clock-o"></i> Posted on {{ post.date | date_to_string }} </p>
+      <p>{{ post.shortDescription }}</p>
+      <a class="btn btn-primary" href="{{ post.url }}">Read More <i class="fa fa-angle-right"></i></a>
+      <hr>
+      {% endif %}
+      {% endfor %}
+
+    </div>
+
+    <!-- Sidebar Widgets Column -->
+    <div class="col-md-4">
+
+      <!-- Side Widget Well -->
+      <div class="well">
+	<img class="img-rounded" src="/images/Logo.png">
+	<hr>
+	<h3>About CEERP</h3>
+	<p><strong>Vision:</strong> The leading research platform in clean energy & environment (CEE) interdisciplinary study in Asia.</p>
+	<p><strong>Mission:</strong> Our mission is to provide a strategic and effective platform to enable scholars and students from HKU and the University of Cambridge to collaborate in interdisciplinary research on CEE, to engage industry so research results are relevant, and to engage citizens and the government to facilitate the implementation of policies to benefit the public.</p>
+        <p>One of the grand challenges of the 21st century is to overcome the problems of climate change due to greenhouse gas emissions.  HKU has taken the lead in addressing this challenge by establishing the Initiative on Clean Energy and Environment (ICEE) in 2008, and our efforts have been quite successful, resulting in major grants on Sustainable Energy (USD 6M), LED (USD 2.5M), and Smart Grid (USD 0.7M). Our interdisciplinary focus has also led to research grants on Nuclear Safety Contingency Governance in China (USD 0.4M), and Technology Empowerment via Smart Energy Management (USD 0.17M). To have impact on the world, we need truly interdisciplinary efforts, so that our proposed solutions will be better understood and supported by the public and the government. We are working with  Energy@Cambridge as a strategic partner. Not only is Cambridge the major international centre in this area, but it is also strategically connected with other major research centres in Europe and North America. Therefore, we collaborate with Cambridge with the goal of establishing the leading research platform in CEE in Asia.</p>
+      </div>
+
+      <!-- Search Well -->
+      <div class="well">
+        <h3>Search</h3>
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+          </span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+	<div class="col-lg-12">
+          <p>Copyright &copy; HKU-CambridgeU CEERP 2015</p>
+	</div>
+      </div>
+    </footer>
+      
+  </div>
+
+  <!-- /.container -->
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Script to Activate the Carousel -->
+  <script>
+    $('.carousel').carousel({
+        interval: 10000 //changes the speed
+    })
+  </script>
+
+</body>
+
+</html>
