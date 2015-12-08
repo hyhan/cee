@@ -1,6 +1,6 @@
 ---
 layout: default
-heading: Research Themes
+heading: Research Theme
 subheading: Air Pollution Project
 ---
 #Air Pollution in the 1950s in London and in the 2000s in Beijing: A Comparative Study

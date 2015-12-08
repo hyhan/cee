@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Seminar about Our Sustainable Energy Future
+title: Our Sustainable Energy Future
 tags: []
 categories: [seminar]
 showAtHome: true
