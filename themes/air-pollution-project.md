@@ -7,7 +7,7 @@ subheading: Air Pollution Project
 **Jacqueline CK Lam, Victor OK Li, Michael Pollitt and David Reiner**
 
 ###Project 1: Quantification Study of Air Pollution in London and Beijing
-*Investigators: Professor Victor OK Li, Dr. Jacqueline CK Lam and Professor Michael Pollitt*
+**Investigators: Professor Victor OK Li, Dr. Jacqueline CK Lam and Professor Michael Pollitt**
 
 
 **Summary**: We will identify the most relevant and comprehensive air pollution data to capture air pollution in London in the 1950s and 1960s and in Beijing in the 2000s to today, and compare and contrast the air pollution trends in the two cities. At present, the UK database capturing air pollution in London in the 1950s contains only black smoke (TSP) data instead of PM (Ayres, 1997), whereas the database in China capturing air pollution in Beijing in the 2000s contains both API (Ministry of Environment, China) or PM2.5 data (US Embassy). We will transform air pollution data to common units, such as TSP, or PM, so as to compare air pollution generated in London in the historical period with air pollution generated in Beijing in more recent years. The aim will be to assess the extent to which the policies of 1950s and 1960s London towards air pollution provide a relevant point of comparison to the Beijing of the last decade.
@@ -48,5 +48,3 @@ Third, based on results generated from the quantitative time-series modeling and
 * Presentations in HKU and Cambridge University:
 	* Two joint presentations will be given at HKU-Cambridge Research Platform, Hong Kong, two times a year, during the period of employment. 
 	* Two joint presentations will be delivered at EPRG/In Search of Good Energy Policy, during the period of employment in Cambridge.
-
-* Period of Full-time Employment for Dr. Jacqueline CK Lam at Cambridge University: Sept/Oct 2016-Aug/Sept 2017, at Grade 9 (Point 13), Senior PDRA (Senior Research Fellow), based in Judge, Cambridge.

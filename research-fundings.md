@@ -1,6 +1,6 @@
 ---
 layout: default
-heading: Research Fundings
+heading: Research Funding
 ---
 ###Prof. Victor Li
 
